@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  
+  .title{
+      text-align: left;
+  }
+  
+  nav {
+    background-color: #BEA9DF; /* Background color of the navigation bar */
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff; /* Text color for the title and button */
+    position: fixed; /* This will fix position of nav bar */
+    justify-content: space-between; /* To push the title and button to the opposite sides */
+  }
+  
+  .navbar-left h1 {
+    margin: 0;
+  }
+  
+  .navbar-right a {
+    text-decoration: none;
+    /* background-color: #ff8809; Background color of the button */
+    color: #ffffff; /* Text color for the button */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s ease;
+  }
+
+  /* ###Content### */
+
+  section {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-image: url('https://cdn.discordapp.com/attachments/709055191403724884/1137761987598745692/E0B897E0B989E0B8ADE0B887E0B89FE0B989E0B8B2E0B8AAE0B8B5E0B88AE0B8A1E0B89EE0B8B9E0B981E0B8A5E0B8B0E0B8AAE0B8B5E0B89FE0B989E0B8B2E0B884E0B8A3E0B8B6E0B989E0B8A1E0B8ADE0B988E0B8ADE0B899E0B8A1E0B8B5E0B980E0B8A1E0B886E0B89BE0B8B8E0B8A2-E0B89EE0B8B7E0B989E0B899E0B8ABE0B8A5E0B8B1E0B887E0B898E0B8A3E0B8A3E0B8A1E0B88AE0B8B2E0B895E0B8B4-fullhd-E0B984E0B897E0B8A1E0B98CE0B981E0B8A5E0B89BE0B8AAE0B98C-E0B889E0B8B2E0B881E0B8ABE0B8A5E0B8B1E0B887E0B897E0B989E0B8ADE0B887E0B89FE0B989E0B8B2E0B881E0B8A3E0B8B0E0B88AE0B8B1.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* Add the background image to the desired section */
+
+  #home {
+    color: #BEA9DF; /* Set text color for better visibility */
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: #ffafdb;
+  }
+
+  #home a{
+    text-decoration: none;
+    background-color: #fff;
+    color: #BEA9DF; /* Text color for the button */
+    border: none;
+    padding: 80px 120px;
+    border-radius: 30PX;
+    cursor: pointer;
+    transition: .5s ease;
+  }
+
+  #home a:hover{
+    text-decoration: none;
+    background-color: #BEA9DF;
+    color: #ffffff; /* Text color for the button */
+    border: none;
+    padding: 80px 120px;
+    border-radius: 30PX;
+    cursor: pointer;
+    transition: .5s;
+  }
+
+  img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+    width: 1500px;
+    height: 1000px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    position: absolute;
+    top: 1000px;
+    left: 250px;
+  }
+
+  #c {
+    margin-right: 20px;
+  }
+  
+  .navbar-right a:hover{
+    background-color: #ffbbbb; /* Background color of the button */
+    color: #fff; /* Text color for the button */
+    border: none;
+    transform: scale(1.2);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+  }
+  
+  footer {
+    background-color: #BEA9DF;
+    padding: 2px;
+    text-align: center;
+  }
+
+  section:nth-child(even) {
+    background-color: #f0f0f0;
+  }
+
+  .active {
+    background-color: #ff8888;
+  }
+
+  .inactive {
+    background-color: #ffbbbb;
+  }
